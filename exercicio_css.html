@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BLOG de Vinicius Jordan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      background-color: #eee;
+      padding: 1em;
+    }
+
+    section {
+      margin: 1em;
+      padding: 1em;
+      border: 1px solid #ddd;
+    }
+
+    .news-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .news-article {
+      width: 30%;
+      margin: 0.5em;
+      padding: 1em;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    /* Adicionando estilos para a nova seção de Entretenimento */
+    #entretenimento {
+      background-color: #FFD700; /* Cor ouro para a seção de Entretenimento */
+    }
+
+    /* Adicionando estilos para a nova seção de Tecnologia */
+    #tecnologia {
+      background-color: #00BFFF; /* Cor azul-claro para a seção de Tecnologia */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>BLOG DE NOTICIAS</h1>
+    <p>Por: Vinicius Jordan Lins Silva</p>
+  </header>
+
+  <nav>
+    <a href="#entretenimento">Entretenimento</a>
+    <a href="#tecnologia">Tecnologia</a>
+  </nav>
+
+
+  <!-- Entreterimento -->
+  <section id="entretenimento" class="news-section">
+    <div class="news-article">Destaque em Entretenimento</div>
+    <article>
+      <img src="https://cinepop.com.br/wp-content/uploads/2023/11/aquaman-1-e1699913117474.jpg.webp" alt="AQUAMAN 2" />
+      <header>
+          <time>24/11/23 às 11:35</time>
+      </header>
+      <h3>Aquaman 2: O Reino Perdido tem cartazes individuais revelados</h3>
+      <p>
+          Em celebração ao início da pré-venda de ingressos nos Estados Unidos, a Warner Bros. Pictures disponibilizou cartazes individuais para Aquaman 2: O Reino Perdido, destacando Arthur (Jason Momoa), Orm (Patrick Wilson) e o vilão Arraia Negra (Yahya Abdul-Mateen II).
+      </p>
+      <a href="#" title="Leia a notícia completa">Ler mais</a>
+  </article>
+  </section>
+
+  <!-- Tecnologia -->
+  <section id="tecnologia" class="news-section">
+    <div class="news-article">Destaque em Tecnologia</div>
+    <article>
+      <img src="https://tm.ibxk.com.br/2023/01/06/06165435743280.jpg?ims=1200x675" alt="openai" />
+      <header>
+          <time>24/11/2023 às 11:50h</time>
+      </header>
+      <h3>O que é a descoberta 'perigosa para a humanidade' que gerou alerta de pesquisadores da OpenAI? </h3>
+      <p>
+          Novidade pode estar ligada a projeto secreto que desenvolve IA para resolver problemas matemáticos de 'forma criativa' 
+      </p>
+      <a href="#" title="Leia a notícia completa">Ler mais</a>
+  </article>
+  </section>
+
+</body>
+</html>
